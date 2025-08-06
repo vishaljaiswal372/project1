@@ -230,16 +230,13 @@ Services</a></li>
     <!-- About Section -->
     <section id="about" class="about section light-background">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="container px-[100px]" data-aos="fade-up" data-aos-delay="100">
         <div class="row align-items-xl-center gy-5">
 
-          <div class="col-xl-5 content">
-            <h3>About Us</h3>
-            <h2>Querozone, is a leading IT system integrator.</h2>
-            <p>We are providing professional services in Cyber Security and Analytical Consultancy, managed services and outsourcing.</p>
-            <p>We excel in crafting resilient, secure infrastructures customized to your requirements, guaranteeing peak performance and dependability. Enhance your business with our extensive networking and system setup solutions. Our network and system architects boast a track record of delivering global IT datacenter design and implementation expertise.</p> 
-
-            <p>Our expertise lies in comprehending intricate requirements to establish a secure and scalable network and IT infrastructure. Prioritizing security in our solution design ensures seamless business and operation without concerns. </p>
+          <div class="col-xl-5 content flex flex-col gap-[30px] pl-[50px]">
+            <h3 style="width: 130px;">About Us</h3>
+            <h2 style="font-size: xx-large;">Empowering Business Through Intelligent Tech</h2>
+            <p style="font-size: larger;">At Querozone, we help businesses rethink their technology approach by delivering smart, reliable, and sustainable IT solutions.<br/> Our mission is to empower organisations with technology that not only drives growth but also aligns with their strategic goals, improves operations, and contributes to a better future, for companies, people, and the planet.</p>
             <a href="#contact" class="read-more"><span>Send Your Query</span><i class="bi bi-arrow-right"></i></a>
           </div>
 
@@ -361,7 +358,7 @@ Services</a></li>
             <span class="text-[40px] text-orange-500">Hardware</span> Solutions
             </p>
             <p class="text-[20px]">
-              Reliable, cost-effective hardware to support your tech ecosystem.
+              Strategic selection of hardware that optimizes your costs while enhancing productivity.
             </p>
           </div>
 
@@ -379,10 +376,10 @@ Services</a></li>
 
           <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="100">
             <div class="service-item d-flex">
-              <div class="icon flex-shrink-0"><i class="bi bi-shield-lock"></i></div>
+              <div class="icon flex-shrink-0"><i class="bi bi-person-badge"></i></div>
               <div>
                 <h4 class="title"><a href="#contact" class="stretched-link">Conference Room Setup</a></h4>
-                <p class="description">Conference-ready solutions with HD video, clear audio, and integration-ready systems designed for seamless collaboration.</p>
+                <p class="description">Premium crystal-clear audio and UHD video, with seamless connectivity, elevate every meeting—ensuring productivity and engagement in any space.</p>
               </div>
             </div>
           </div>
@@ -393,7 +390,19 @@ Services</a></li>
               <div class="icon flex-shrink-0"><i class="bi bi-check2-circle"></i></div>
               <div>
                 <h4 class="title"><a href="#contact" class="stretched-link">Hardware Rental Services</a></h4>
-                <p class="description">Real-time tracking of trolleys, bins, and warehouse assets, improving inventory visibility and operational control</p>
+                <p class="description">Upgrade your tech affordably with Querozone’s flexible hardware rentals.<br>
+                No big upfront costs, just easy upgrades and full support.</p>
+              </div>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-file-earmark"></i></div>
+              <div>
+                <h4 class="title"><a href="#contact" class="stretched-link">Interactive 4K Panels</a></h4>
+                <p class="description">65" 4K UHD interactive display with ultra-responsive touch, powerful performance, and seamless collaboration for modern classrooms and workspaces.</p>
               </div>
             </div>
           </div>
@@ -404,7 +413,7 @@ Services</a></li>
             <span class="text-[40px] text-orange-500">& Industrial</span> Automation
             </p>
             <p class="text-[20px]">
-              Transform industrial workflows through real-time automation, SAP integration, and smart tracking systems, driving measurable efficiency across your factory floor or warehouse.
+              Transform industrial workflows through real-time automation, SAP integration, and smart tracking systems, unlocking valuable insights and visibility to optimize your operations.
             </p>
           </div>
 
@@ -432,7 +441,7 @@ Services</a></li>
 
           <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="100">
             <div class="service-item d-flex">
-              <div class="icon flex-shrink-0"><i class="bi bi-database-lock"></i></div>
+              <div class="icon flex-shrink-0"><i class="bi bi-shield-lock"></i></div>
               <div>
                 <h4 class="title"><a href="#contact" class="stretched-link">Trolley & Bin Tracking</a></h4>
                 <p class="description">Real-time tracking of trolleys, bins, and warehouse assets, improving inventory visibility and operational control.</p>
@@ -440,6 +449,18 @@ Services</a></li>
             </div>
           </div>
           <!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-database-lock"></i></div>
+              <div>
+                <h4 class="title"><a href="#contact" class="stretched-link">Predictive Maintenance</a></h4>
+                <p class="description">Proactively monitor asset health using real-time data analytics to predict failures before they occur. Integrated with SAP, our solution helps reduce downtime, extend equipment life, and optimize maintenance schedules, ensuring higher operational efficiency and cost savings.</p>
+              </div>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
 
           <div class="flex flex-col gap-[5px]" style="padding: 30px;">
             <p class="text-[40px] font-bold"> Enterprise
@@ -939,8 +960,8 @@ Graduates that will provide them with theoretical and practical experience.
               <div class="social">
                 <a href="#"><i class="bi bi-twitter-x"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.instagram.com/querozone?igsh=MTRodXRmaWZpM200cA==" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/querozone/" target="_blank"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
             <div class="member-info text-center">
@@ -1321,7 +1342,7 @@ implementing complex enterprise solutions.</p>
         <p>Get in touch for assistance, inquiries, feedback, or additional information.</p>
       </div><!-- End Section Title -->
 
-      <div style="width:100%;height:500px;padding-left:100px;padding-right:100px;" 
+      <div style="width:100%;height:500px;padding-left:30px;padding-right:30px;" 
         data-fillout-id="35oFF4Xgkous" 
         data-fillout-embed-type="standard" 
         data-fillout-inherit-parameters 
@@ -1347,8 +1368,8 @@ implementing complex enterprise solutions.</p>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.instagram.com/querozone?igsh=MTRodXRmaWZpM200cA=="><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/querozone/"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
